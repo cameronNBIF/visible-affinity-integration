@@ -15,6 +15,13 @@ if errorlevel 1 (
     exit /b
 )
 
+if not exist .env (
+    echo .env file not found!
+    echo Please download it from the 1Password "Developer API Keys" vault.
+    pause
+    exit /b
+)
+
 REM Create a venv if it doesn’t exist
 if not exist venv (
     echo Creating virtual environment...
