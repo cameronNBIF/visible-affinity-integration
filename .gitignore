@@ -19,3 +19,6 @@ dist/
 # VSCode / IDE configs (optional but common)
 .vscode/
 .idea/
+
+#Virtual Environment
+venv/
