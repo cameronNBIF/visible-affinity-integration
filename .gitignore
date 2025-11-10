@@ -1,0 +1,21 @@
+# Environment variables
+.env
+.env.*
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# VSCode / IDE configs (optional but common)
+.vscode/
+.idea/
